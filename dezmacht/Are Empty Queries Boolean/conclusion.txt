@@ -1,0 +1,8 @@
+Una consulta mysql (función:mysqli_query) que devuelve filas,
+devuelve un mysqli_resource
+
+Una consulta mysql (función:mysqli_query) que no devuelve filas
+devuelve un mysqli_resource sin filas (false, NULL,0)
+
+Una consulta mysql (función:mysqli_query) que está mal formulada a nivel de sql
+devuelve un boolean FALSE. Se recomienda usar or die en la fase de debugging

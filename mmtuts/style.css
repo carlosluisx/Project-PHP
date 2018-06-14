@@ -1,0 +1,51 @@
+.yes-sir{
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    word-break: break-word;
+}
+.yes-sir:hover{
+    transition: 1.5s;
+    transition-timing-function: cubic-bezier(.2,.2,.2,.2);   
+    color: white;
+    background: black;
+    font-size: 5.05em;
+}
+.grid-container{
+    display: grid;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+    grid-auto-columns: 1fr 1fr;
+}
+.message-setter{
+    grid-column-start: 2;
+}
+.yes-sir-container2{
+    grid-column-start: 1;    
+    grid-row-start: 2;
+}
+.message-setter-text{
+    font-family: roboto,arial,sans-serif;
+    font-size: 2em;
+}
+.message-setter-submit{
+    margin-top: 20px;
+    padding:10px 25px;
+    border-radius: 0px;
+    background-color: #555555;
+    color: white;
+    border: none;  
+    font-size: 16px; 
+    text-decoration: none;
+}
+.message-setter-submit:hover{
+    transition:1s;
+    background-color: #c7c7c7;
+    color: #080808;
+}
+.message-setter-input{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px 5px;
+}
